@@ -1,10 +1,10 @@
 def recur_factorial(n):
-   if n == 1:
+   if n == 2:
        return n
    else:
        return n*recur_factorial(n-1)
 
-num = 7
+num = 9
 
 # check if the number is negative
 if num < 0:
